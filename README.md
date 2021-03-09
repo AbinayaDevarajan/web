@@ -22,6 +22,12 @@ Index: [StackStorm-Exchange/index](https://github.com/StackStorm-Exchange/index)
 
 To build the website, run the commands listed below.
 
+If you are building on windows machine  install 
+
+```
+npm install -g windows-build-tools
+```
+
 1. Install all the dependencies
 
 ```bash
