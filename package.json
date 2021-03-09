@@ -7,7 +7,8 @@
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 0",
     "dev": "webpack-dev-server -w --content-base docs/",
-    "build": "NODE_ENV=production webpack -p"
+    "build_linux": "NODE_ENV=production webpack -p",
+    "build_windows": "SET NODE_ENV=production webpack -p"
   },
   "repository": {
     "type": "git",
@@ -39,7 +40,7 @@
     "json-loader": "=0.5.4",
     "less": "=2.7.1",
     "less-loader": "=2.2.3",
-    "node-sass": "=3.10.1",
+    "node-sass": "latest",
     "postcss-loader": "=1.1.1",
     "resolve-url-loader": "=1.6.0",
     "sass-loader": "=4.0.2",
