@@ -42,9 +42,19 @@ npm run lint
 
 3. Build it
 
+for linux: 
+
 ```bash
-npm run build
+npm run build-linux
 ```
+
+for windows :
+
+```bash
+npm run build-windows
+```
+
+
 
 If you want to run a development server locally, you can run:
 

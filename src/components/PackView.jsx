@@ -50,7 +50,7 @@ const Pack = React.createClass({
           ><i className="fa fa-github" /></a>
           <a
             rel="button" tabIndex="-1" className="btn btn-sm btn-copy"
-            data-clipboard-text={`st2 pack install ${this.props.slug}`}
+            data-clipboard-text={`st2 run pack_install.install_eda_pack pack_name=${this.props.slug} git_branch="1.0.0"`}
             data-title="Copy install command"
             data-trigger="click"
             data-placement="bottom"
@@ -60,7 +60,7 @@ const Pack = React.createClass({
           <a
             className="btn btn-sm btn-circleci" href={`https://circleci.com/gh/StackStorm-Exchange/stackstorm-${this.props.slug}`}
             rel="noopener noreferrer" target="_blank"
-            data-title="View build status on Circle CI"
+            data-title="Open Pack composer"
             data-placement="bottom"
             data-toggle="tooltip"
           ><i className="fa fa-cogs" /></a>
@@ -192,7 +192,7 @@ const PackView = React.createClass({
       html: true,
     });
     $.ajax({
-      url: 'https://index.stackstorm.org/v1/index.json',
+      url: 'http://127.0.0.1:9090/index.json',
       dataType: 'json',
       cache: false,
       success: function (data) {

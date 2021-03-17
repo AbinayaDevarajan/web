@@ -1,59 +1,51 @@
 [
 	{
-		"id": "picks",
-		"displayName": "Staff Picks",
+		"id": "application_packs",
+		"displayName": "Application Packs",
 		"packs": [
-			"Network Essentials",
-			"aws",
-			"github",
-			"ansible",
-			"duo",
-			"datadog",
-			"sensu",
-			"hue"
+			"adobesign", 
+			"akamai",
+			"application_pack_1",
+			"campaign",
+			"confops",
+			"edi",
+			"finance",
+			"glaas",
+			"hadoop_jobs",
+			"highbeam",
+			"hoolihan_entcom",
+			"polarbear",
+			"sapbasis",
+			"sapecommerce",
+			"snaplogic",
+			"tidal",
+			"worldserver"
+
 		]
 	},
 	{
-		"id": "cloud",
-		"displayName": "Cloud Providers",
+		"id": "Common",
+		"displayName": "Common Packs",
 		"packs": [
-			"aws",
-			"libcloud",
-			"digitalocean",
-			"rackspace",
-			"azure",
-			"dimensiondata",
-			"cloudstack"
-		]
-	},
-	{
-		"id": "monitoring",
-		"displayName": "Monitoring",
-		"packs": [
-			"Network Essentials",
-			"datadog",
-			"dripstat",
-			"nagios",
-			"sensu",
+			"chatops",
+			"chatops_monitor",
+			"email",
+			"pack_install",
+			"pagerduty",
+			"salt",
 			"servicenow",
-			"newrelic",
-			"mmonit",
-			"icinga2",
-			"Check_MK"
+			"sharepoint",
+			"slack"
+
 		]
-	},
+	}, 
+
 	{
-		"id": "curiosities",
-		"displayName": "Curiosities",
+		"id": "Test",
+		"displayName": "Test Packs",
 		"packs": [
-			"astral",
-			"cubesensors",
-			"hue",
-			"tesla",
-			"nest",
-			"powerpoint",
-			"urbandict",
-			"save_kittens"
+			"chatops"
+
 		]
 	}
 ]
